@@ -156,8 +156,7 @@ section {
 
 .home .content span {
    font-weight: bolder;
-   color: transparent;
-   -webkit-text-stroke: 0.1rem #fff;
+   color: #fff;
    font-size: 4vw;
    display: block;
 }
@@ -752,12 +751,10 @@ section {
       left: 0;
       right: 0;
       background: #222;
-      -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
       clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
    }
 
    .header .navbar.active {
-      -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
       clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
    }
 
